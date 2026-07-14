@@ -1,0 +1,12 @@
+This is a build-ready Python/Kivy Android project.
+
+GitHub build:
+1. Create a GitHub repository.
+2. Upload all files.
+3. Open Actions > Build Android APK > Run workflow.
+4. Download the NTH-POS-Android-APK artifact.
+
+Local Ubuntu/WSL build:
+1. Install Buildozer and Android prerequisites.
+2. Run: buildozer android debug
+3. APK appears in bin/.
